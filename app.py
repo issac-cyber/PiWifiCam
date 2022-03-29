@@ -6,7 +6,7 @@ import threading
 import time
 import json
 from flask import Flask, request, Response
-from gevent.wsgi import WSGIServer
+from gevent.pywsgi import WSGIServer
 
 import config as cfg
 
